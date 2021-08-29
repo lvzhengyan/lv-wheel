@@ -1,0 +1,14 @@
+{
+  "name": "lv-wheel",
+  "version": "1.0.0",
+  "description": "一个vue造轮子项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lv",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.14"
+  }
+}
