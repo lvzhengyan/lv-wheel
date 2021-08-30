@@ -1,6 +1,7 @@
 <template>
     <button class="lv-button" :class="{ [`icon-${iconPosition}`]: true }">
         <lv-icon v-if="icon" :icon-name="icon" class="icon"></lv-icon>
+        <lv-icon class="loading" icon-name="loading"></lv-icon>
         <div class="content">
             <slot></slot>
         </div>
@@ -22,6 +23,14 @@ export default {
 }
 </script>
 <style lang="scss">
+@keyframes loading {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 .lv-button {
     display: inline-flex;
     align-items: center;
@@ -52,6 +61,9 @@ export default {
         .content {
             order: 1;
         }
+    }
+    .loading {
+        animation: loading 2s infinite linear;
     }
     &:hover {
         border-color: var(--border-color-hover);
