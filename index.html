@@ -31,9 +31,9 @@
         <style></style>
     </head>
     <div id="app">
-        <lv-button icon="settings">设置按钮</lv-button>
+        <lv-button icon="settings" :loading="loading1" @click="loading1 = !loading1">设置按钮</lv-button>
         <lv-button>没有图标</lv-button>
-        <lv-button icon="settings" icon-position="right">图标在右侧</lv-button>
+        <lv-button icon="settings" icon-position="right" :loading="true">图标在右侧</lv-button>
         <lv-button icon="download" icon-position="right">下载图标</lv-button>
     </div>
     <body>

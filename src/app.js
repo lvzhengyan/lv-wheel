@@ -6,5 +6,8 @@ Vue.component('lv-button', Button);
 Vue.component('lv-icon', Icon);
 
 new Vue({
-    el: '#app'
+    el: '#app',
+    data: {
+        loading1: false
+    }
 });
