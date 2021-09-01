@@ -1530,7 +1530,12 @@
   "resolved" "https://registry.npm.taobao.org/caseless/download/caseless-0.12.0.tgz"
   "version" "0.12.0"
 
-"chai@^4.3.4":
+"chai-spies@^1.0.0":
+  "integrity" "sha1-0Ws5M2+zFtA6v4w3X+sjwMi7Fj0="
+  "resolved" "https://registry.nlark.com/chai-spies/download/chai-spies-1.0.0.tgz"
+  "version" "1.0.0"
+
+"chai@*", "chai@^4.3.4":
   "integrity" "sha1-tV5lWzHh6scJm+TAjCGWT84ubEk="
   "resolved" "https://registry.npm.taobao.org/chai/download/chai-4.3.4.tgz"
   "version" "4.3.4"

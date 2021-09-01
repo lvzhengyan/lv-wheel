@@ -9,6 +9,7 @@
   "author": "lv",
   "license": "MIT",
   "dependencies": {
+    "chai-spies": "^1.0.0",
     "vue": "^2.6.14",
     "vue-hot-reload-api": "^2.3.4"
   },
