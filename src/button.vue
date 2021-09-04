@@ -8,7 +8,11 @@
     </button>
 </template>
 <script>
+import Icon from './icon.vue'
 export default {
+    components: {
+        'lv-icon': Icon
+    },
     props: {
         icon: {},
         loading: {
