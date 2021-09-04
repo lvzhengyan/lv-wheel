@@ -1,8 +1,8 @@
 {
   "name": "lv-wheel",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "一个vue造轮子项目",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev-test": "parcel watch test/* --no-cache & karma start",
     "test": "parcel build test/* --no-minify && karma start --single-run"
